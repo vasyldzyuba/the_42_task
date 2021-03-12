@@ -1,9 +1,3 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v7.0.29,
-* Autoprefixer: v9.7.6
-* Browsers: last 4 version
-*/
 
 * {
     margin: 0;
@@ -34,7 +28,6 @@ body {
     font-weight: 300;
     font-size: 12px;
     line-height: 18px;
-    /* identical to box height */
     text-align: center;
     color: #FFFFFF;
     width: 100%;
@@ -82,7 +75,6 @@ ul {
     font-weight: normal;
     font-size: 16px;
     line-height: 24px;
-    /* identical to box height */
     width: 700px;
     text-align: center;
     text-transform: capitalize;
@@ -139,18 +131,12 @@ a:hover::after {
     justify-content: space-between;
     -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
-    /*height: 100vh;*/
-    /*opacity: 0.2;*/
     position: relative;
-    /*background-image: url("../images/AK8I5057-editrrr12.png");*/
-    /*background-repeat: no-repeat;*/
-    /*background-size: cover;*/
 }
 
 
 .description {
     z-index: 300;
-
     position: relative;
     left: -50px;
     text-align: center;
@@ -223,7 +209,6 @@ a:hover::after {
 }
 
 .middle-text {
-    /*width: 50%;*/
     padding-top: 140px;
 }
 
@@ -252,11 +237,9 @@ a:hover::after {
 
 .desc {
     font-family: Poppins;
-    /*font-style: normal;*/
     font-weight: lighter;
     font-size: 18px;
     line-height: 130%;
-    /* or 31px */
     margin-top: 19px;
     text-align: center;
     color: #000000;
@@ -287,14 +270,10 @@ a:hover::after {
 }
 
 .stars-cont img {
-
-    /*display: flex;*/
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    /*text-align: center;*/
-    /*justify-content: space-between;*/
     width: 17px;
     height: 17px;
 }
@@ -305,12 +284,9 @@ a:hover::after {
     font-weight: 200;
     font-size: 20px;
     line-height: 150%;
-    /* identical to box height, or 30px */
     text-align: center;
     color: #676464;
-    /*opacity: 0.5;*/
     margin-right: 14px;
-    /*text-decoration: underline;*/
     position: relative;
 }
 
@@ -333,7 +309,6 @@ a:hover::after {
     font-weight: 200;
     font-size: 30px;
     line-height: 150%;
-    /* identical to box height, or 45px */
     text-align: center;
     color: #000000;
 }
@@ -352,7 +327,6 @@ a:hover::after {
 }
 
 .efoliate {
-    /*width: 100%;*/
     position: relative;
     z-index: 1;
     height: 740px;
@@ -364,7 +338,6 @@ a:hover::after {
     font-weight: 100;
     font-size: 60px;
     line-height: 120%;
-    /* or 72px */
     text-align: center;
     color: #FFFFFF;
 }
@@ -424,7 +397,6 @@ a:hover::after {
     font-weight: bold;
     font-size: 40px;
     line-height: 150%;
-    /* identical to box height, or 60px */
     text-align: center;
     color: #000000;
 }
@@ -475,18 +447,13 @@ a:hover::after {
 }
 
 .round-cont p {
-    /*bottom: -28px;*/
-    /*position: absolute;*/
     text-align: center;
-    /*left: 8px;*/
     margin-top: 17px;
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
     line-height: 150%;
-    /* identical to box height, or 30px */
-    /*text-align: center;*/
     color: #000000;
 }
 
@@ -504,7 +471,6 @@ a:hover::after {
     font-weight: bold;
     font-size: 40px;
     line-height: 150%;
-    /* identical to box height, or 60px */
     background-color: white;
     text-align: center;
     color: #000000;
@@ -538,8 +504,6 @@ a:hover::after {
     font-weight: 500;
     font-size: 22px;
     line-height: 170%;
-    /* or 37px */
-
     text-align: center;
 }
 
@@ -558,9 +522,6 @@ a:hover::after {
     flex-wrap: nowrap;
 }
 
-/*.arrow-cont {*/
-/*    position: relative;*/
-/*}*/
 
 .arrow-white {
     -webkit-transform: rotate(180deg);
@@ -581,7 +542,6 @@ a:hover::after {
 
 .comment-cont {
     position: relative;
-    /*width: 140%;*/
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -631,7 +591,6 @@ a:hover::after {
     font-weight: bold;
     font-size: 40px;
     line-height: 150%;
-    /* identical to box height, or 60px */
     text-align: center;
     color: #FFFFFF;
     margin-top: 102px;
@@ -646,7 +605,6 @@ a:hover::after {
     -webkit-box-pack: space-evenly;
     -ms-flex-pack: space-evenly;
     justify-content: space-evenly;
-    /*overflow: hidden;*/
 }
 
 .card {
@@ -659,7 +617,6 @@ a:hover::after {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    /*text-align: center;*/
 }
 
 
@@ -669,7 +626,6 @@ a:hover::after {
     font-weight: normal;
     font-size: 18px;
     line-height: 160%;
-    /* or 29px */
     color: #000000;
     text-align: left;
 }
@@ -689,8 +645,6 @@ a:hover::after {
     width: 100%;
     background: -o-linear-gradient(281deg, rgba(250, 178, 152, 0.48) 0%, #F4DED6 0%, #F8EAE5 0%, rgba(255, 255, 255, 0) 0%);
     background: linear-gradient(169deg, rgba(250, 178, 152, 0.48) 0%, #F4DED6 0%, #F8EAE5 0%, rgba(255, 255, 255, 0) 0%);
-    /*background-image: url("../images/bg.png");*/
-    /*background-repeat: no-repeat;*/
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -707,12 +661,8 @@ a:hover::after {
     font-weight: bold;
     font-size: 40px;
     line-height: 150%;
-    /* or 60px */
-
     text-align: center;
-
     color: #000000;
-
 }
 
 .subscribe span {
@@ -817,8 +767,6 @@ a:hover::after {
     font-weight: 300;
     font-size: 14px;
     line-height: 125.5%;
-    /* or 18px */
-    /*text-transform: uppercase;*/
     color: black;
 }
 
@@ -834,7 +782,6 @@ footer {
     background-color: black;
     background-image: url("../images/Groupbottom.png");
     background-repeat: no-repeat;
-    /*background-attachment: fixed;*/
     background-position: bottom left;
 }
 
@@ -856,7 +803,6 @@ footer {
     font-weight: bold;
     font-size: 16px;
     line-height: 38px;
-    /* or 38px */
     color: #FFFFFF;
     width: 219px;
     display: -webkit-box;
@@ -933,7 +879,6 @@ footer p {
     font-weight: 300;
     font-size: 12px;
     line-height: 18px;
-    /* identical to box height */
     text-align: right;
     color: #FFFFFF;
     opacity: 0.4;
@@ -960,7 +905,6 @@ footer p {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    /* align-items: center; */
     width: 60%;
 }
 
@@ -971,11 +915,8 @@ footer p {
     font-weight: normal;
     font-size: 14px;
     line-height: 21px;
-    /* identical to box height */
-
     text-align: center;
     text-transform: capitalize;
-
     color: #000000;
 }
 
@@ -1014,7 +955,6 @@ footer p {
     }
 
     .brand {
-        /*margin-top: 118px;*/
         overflow-x: scroll;
     }
 
@@ -1120,9 +1060,7 @@ footer p {
 
     .description {
         position: absolute;
-        /* left: -50px; */
         text-align: center;
-        /* margin: 0 auto; */
         bottom: 16%;
         left: 50%;
         -webkit-transform: translate(-50%, 0%);
@@ -1134,8 +1072,6 @@ footer p {
     .black-middle-block {
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-        /*justify-content: center;*/
-        /*height: auto;*/
     }
 
     .middle-text {
@@ -1158,7 +1094,6 @@ footer p {
     }
 
     .description2 {
-        /*position: relative;*/
         left: 0;
         margin-top: 154px;
     }
@@ -1190,7 +1125,6 @@ footer p {
         -webkit-box-pack: justify;
         -ms-flex-pack: justify;
         justify-content: space-between;
-        /* align-items: center; */
         width: 60%;
     }
 
@@ -1467,13 +1401,6 @@ footer p {
         text-align: center
     }
 
-    /*.bottom-descr {*/
-    /*    width: 99%;*/
-    /*    margin-top: 70px;*/
-    /*}*/
-    /*.bottom-descr p {*/
-    /*    text-align: center;*/
-    /*}*/
     .bottom-descr img {
         margin: 0;
     }
@@ -1524,7 +1451,6 @@ footer p {
 
     .logo-footer img {
         width: 122px;
-        /*height: 12px;*/
     }
 
     .navigate ul li {
@@ -1562,16 +1488,12 @@ footer p {
 
     .cont img {
         width: 354.87px;
-        /*height: 529.28px;*/
     }
 
     .middle-text {
         padding-bottom: 40px;
     }
 
-    /*.buy-it-now img {*/
-    /*    width: 355.16px;*/
-    /*}*/
     .linethrough {
         width: 60px;
         height: 1px;
